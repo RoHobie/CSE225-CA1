@@ -82,11 +82,11 @@ fun Dashboard() {
             Text("Reset progress")
         }
     }
+}
 
-    @Composable
-    fun ProgressBar(progress: Float) {
-        LinearProgressIndicator(
+@Composable
+fun ProgressBar(progress: Float) {
+    LinearProgressIndicator(
         progress = { progress }
-        )
-    }
+    )
 }
